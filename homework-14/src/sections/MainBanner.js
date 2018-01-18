@@ -1,6 +1,6 @@
 import React from 'react';
 
-class Banner extends React.Component {
+class MainBanner extends React.Component {
   render() {
 
     const welcomeCarouselItemList = [
@@ -38,6 +38,7 @@ class Banner extends React.Component {
       }
     ];
 
+
     return (
       <section className="banner banner-home-page banner-bg">
         <div className="welcome-info text-white text-center text-uppercase">
@@ -48,7 +49,8 @@ class Banner extends React.Component {
           {
             welcomeCarouselItemList.map((item, index) =>{
               return (
-                <div className="col-sm-3" key={index}>
+                <div className="col-sm-3"
+                     key={index}>
                   <a
                     href="industry.html"
                     className="d-block link-industry text-white text-center text-uppercase">
@@ -65,4 +67,4 @@ class Banner extends React.Component {
   }
 }
 
-export default Banner;
+export default MainBanner;
