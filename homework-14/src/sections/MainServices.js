@@ -20,7 +20,6 @@ const MainServices = () => {
     }
   ];
 
-
   return (
     <section className="services-section">
       <h3>Services</h3>

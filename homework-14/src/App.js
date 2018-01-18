@@ -14,26 +14,17 @@ class App extends React.Component {
   render() {
     return (
       <div>
+
         <div className="wrapper main-page">
-
           <Header/>
-
           <MainBanner/>
-
           <MainAboutUs/>
-
           <OurFeatures/>
-
           <ProjectsSection/>
-
           <MainServices/>
-
           <MainTestimonials/>
-
           <MainOurBlog/>
-
           <QuickContact/>
-
         </div>
 
         <Footer/>

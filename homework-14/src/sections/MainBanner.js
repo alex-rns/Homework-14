@@ -38,7 +38,6 @@ class MainBanner extends React.Component {
       }
     ];
 
-
     return (
       <section className="banner banner-home-page banner-bg">
         <div className="welcome-info text-white text-center text-uppercase">

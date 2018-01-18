@@ -42,9 +42,12 @@ const MainAboutUs = () => {
           {
             aboutCarouselLogoList.map((item, index) =>{
               return (
-                <li key={index}>
+                <li
+                  key={index}>
                   <a>
-                    <img src={item.imgLogo + (index+1) + '.png'} alt={item.imgLogo.substr(7)}/>
+                    <img
+                      src={item.imgLogo + (index+1) + '.png'}
+                      alt={item.imgLogo.substr(7)}/>
                   </a>
                 </li>
               )

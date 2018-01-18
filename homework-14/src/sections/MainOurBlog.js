@@ -25,11 +25,18 @@ const MainOurBlog = () => {
           {
             blogCardList.map((item, index) =>{
               return(
-                <div key={index} className="col-lg-6 our-blog-card">
+                <div
+                  key={index}
+                  className="col-lg-6 our-blog-card">
                   <a href="blog-post.html">
-                    <img className="our-blog-slide-img" src={item.img} alt="our-blog-slide-img"/>
+                    <img
+                      className="our-blog-slide-img"
+                      src={item.img}
+                      alt="our-blog-slide-img"/>
                     <div className="our-blog-card-wrap">
-                      <span className="our-blog-date">{item.date}</span>
+                      <span
+                        className="our-blog-date">
+                        {item.date}</span>
                       <h5>{item.title}</h5>
                       <p>{item.text}</p>
                     </div>
